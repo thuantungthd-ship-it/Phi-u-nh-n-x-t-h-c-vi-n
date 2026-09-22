@@ -17,31 +17,31 @@ STANDARD = {
  "A+": {"label": "Outstanding – Xuất sắc", "items": [
    "Học viên đạt kết quả xuất sắc, thể hiện sự vượt trội ở tất cả các kỹ năng nghe, nói, đọc, viết. Khả năng vận dụng kiến thức vào giao tiếp thực tế rất linh hoạt và tự nhiên. Học viên luôn chủ động, tích cực và là tấm gương cho các bạn trong lớp noi theo.",
    "Học viên hoàn thành khóa học với thành tích vượt trội, nắm vững toàn diện kiến thức và kỹ năng. Phản xạ giao tiếp nhanh nhạy, tư duy ngôn ngữ tốt, luôn thể hiện tinh thần học tập nghiêm túc và cầu tiến. Đây là kết quả rất đáng khích lệ.",
- ], "kien_nghi": "Học viên cần tiếp tục duy trì và phát huy tối đa kết quả học tập xuất sắc hiện tại. Giáo viên khuyến khích học viên thử sức với các nội dung nâng cao, tham gia các hoạt động ngoại khóa bằng tiếng Anh và đặt mục tiêu chứng chỉ ở cấp độ cao hơn để phát triển toàn diện năng lực ngôn ngữ."},
+ ], "kien_nghi": "Học viên cần tiếp tục duy trì và phát huy tối đa kết quả học tập xuất sắc hiện tại, thử sức với các nội dung nâng cao, tham gia các hoạt động ngoại khóa bằng tiếng Anh và đặt mục tiêu chứng chỉ ở cấp độ cao hơn để phát triển toàn diện năng lực ngôn ngữ."},
  "A": {"label": "Excellent – Rất giỏi", "items": [
    "Học viên có kết quả học tập tốt và nắm vững các kiến thức trọng tâm của khóa học. Các kỹ năng nghe, nói, đọc, viết được phát triển tương đối đồng đều; học viên có khả năng vận dụng kiến thức vào giao tiếp và các tình huống thực tế. Học viên có ý thức học tập tốt, tích cực tham gia các hoạt động trên lớp.",
    "Học viên duy trì kết quả học tập tốt và ổn định trong suốt quá trình học. Các kỹ năng nghe, nói, đọc, viết được phát triển tương đối đồng đều. Học viên có ý thức học tập tốt và nên tiếp tục duy trì phong độ, đồng thời mở rộng vốn từ và tăng cường các hoạt động thực hành nâng cao.",
- ], "kien_nghi": "Học viên cần tiếp tục duy trì và phát huy kết quả học tập hiện tại, đồng thời tăng cường các hoạt động thực hành và phát triển kỹ năng nâng cao. Giáo viên khuyến khích học viên sử dụng tiếng Anh chủ động trong giao tiếp, rèn luyện tư duy và phản xạ, đồng thời theo dõi những kỹ năng có dấu hiệu giảm để có hỗ trợ kịp thời."},
+ ], "kien_nghi": "Học viên cần tiếp tục duy trì và phát huy kết quả học tập hiện tại, đồng thời tăng cường các hoạt động thực hành và phát triển kỹ năng nâng cao. Nên chủ động sử dụng tiếng Anh trong giao tiếp, rèn luyện tư duy và phản xạ; phụ huynh có thể theo dõi thêm những kỹ năng có dấu hiệu giảm để hỗ trợ kịp thời."},
  "B+": {"label": "Very good – Giỏi", "items": [
    "Học viên có kết quả học tập tốt và đang có sự tiến bộ rõ rệt. Khả năng tiếp thu, vận dụng kiến thức và thực hành các kỹ năng tiếng Anh ngày càng tốt. Học viên có tinh thần học tập tích cực và nên tiếp tục duy trì phong độ, đồng thời thử sức với các nội dung nâng cao.",
    "Học viên đạt kết quả khá tốt, các kỹ năng nghe, nói, đọc, viết phát triển khá đồng đều. Học viên có tinh thần cầu tiến, sẵn sàng tiếp thu góp ý và cải thiện. Cần tiếp tục rèn luyện thêm để tiến gần hơn tới mức xuất sắc.",
- ], "kien_nghi": "Học viên cần tiếp tục duy trì đà tiến bộ, tăng cường thực hành các kỹ năng còn chưa đồng đều để đạt kết quả cao hơn. Giáo viên nên khuyến khích học viên luyện tập thêm ở nhà, tham gia các hoạt động giao tiếp thực tế và đặt mục tiêu vươn lên mức xuất sắc trong giai đoạn tiếp theo."},
+ ], "kien_nghi": "Học viên cần tiếp tục duy trì đà tiến bộ, tăng cường thực hành các kỹ năng còn chưa đồng đều để đạt kết quả cao hơn, luyện tập thêm ở nhà, tham gia các hoạt động giao tiếp thực tế và đặt mục tiêu vươn lên mức xuất sắc trong giai đoạn tiếp theo."},
  "B": {"label": "Good – Khá", "items": [
    "Học viên đạt yêu cầu của khóa học và đã nắm được các kiến thức cơ bản. Các kỹ năng nghe, nói, đọc, viết đang có sự tiến bộ, tuy nhiên khả năng vận dụng kiến thức và phản xạ giao tiếp vẫn cần được cải thiện thêm. Học viên nên duy trì việc học tập đều đặn, tăng cường luyện tập và chủ động tham gia các hoạt động trên lớp để nâng cao kết quả.",
    "Học viên có kết quả học tập khá, nắm được phần lớn kiến thức trọng tâm. Một số kỹ năng còn chưa thật sự vững, cần luyện tập thêm để phản xạ nhanh và tự nhiên hơn trong giao tiếp. Học viên nên duy trì tinh thần học tập tích cực hiện tại.",
- ], "kien_nghi": "Tiếp tục theo dõi và duy trì quá trình học tập của học viên; tập trung củng cố các kiến thức, kỹ năng còn hạn chế và tăng cường thực hành. Giáo viên chủ động hỗ trợ, giao nhiệm vụ phù hợp với năng lực và đánh giá tiến độ định kỳ. Khuyến khích học viên nâng cao tính chủ động, ý thức tự học và mức độ tham gia trên lớp."},
+ ], "kien_nghi": "Học viên cần tiếp tục duy trì quá trình học tập, tập trung củng cố các kiến thức, kỹ năng còn hạn chế và tăng cường thực hành. Phụ huynh nên đồng hành, khuyến khích học viên nâng cao tính chủ động, ý thức tự học và mức độ tham gia trên lớp."},
  "C+": {"label": "Average – Trung bình", "items": [
    "Học viên duy trì kết quả học tập tương đối ổn định và đáp ứng các yêu cầu cơ bản của khóa học. Các kỹ năng đang được phát triển ở mức phù hợp. Học viên cần tiếp tục duy trì việc học đều đặn và tăng cường luyện tập để nâng cao khả năng vận dụng kiến thức.",
    "Học viên đạt mức yêu cầu cơ bản nhưng vẫn còn một số điểm cần được hỗ trợ thêm. Học viên cần củng cố từ vựng, ngữ pháp và tăng cường thực hành các kỹ năng còn hạn chế. Với sự hướng dẫn thường xuyên và kế hoạch học tập phù hợp, học viên có thể cải thiện kết quả trong thời gian tới.",
- ], "kien_nghi": "Giáo viên cần tăng cường kèm cặp, giao thêm bài tập củng cố kiến thức nền tảng cho học viên. Khuyến khích học viên chủ động ôn tập, tham gia đầy đủ các hoạt động trên lớp và theo dõi sát tiến độ để đảm bảo không bị tụt lại so với yêu cầu chung."},
+ ], "kien_nghi": "Học viên cần tăng cường ôn tập, củng cố kiến thức nền tảng và làm thêm bài tập bổ trợ. Phụ huynh nên khuyến khích học viên chủ động ôn tập, tham gia đầy đủ các hoạt động trên lớp và theo dõi sát tiến độ để không bị tụt lại so với yêu cầu chung."},
  "C": {"label": "Need improvement – Cần cố gắng hơn", "items": [
    "Học viên chưa đạt kết quả như mong đợi và còn hạn chế ở một số kỹ năng tiếng Anh. Khả năng ghi nhớ từ vựng, vận dụng ngữ pháp và phản xạ giao tiếp cần được cải thiện. Học viên cần tăng cường luyện tập, hoàn thành đầy đủ bài tập và chủ động tham gia các hoạt động trên lớp.",
    "Học viên hiện vẫn còn một số hạn chế trong việc tiếp thu và vận dụng kiến thức, tuy nhiên đã có sự tiến bộ so với giai đoạn trước. Khả năng tham gia học tập và thực hành đang được cải thiện. Cần tiếp tục duy trì việc học đều đặn, củng cố kiến thức nền tảng và luyện tập thường xuyên để đạt kết quả tốt hơn.",
- ], "kien_nghi": "Học viên cần củng cố kiến thức nền tảng và tăng cường luyện tập các kỹ năng còn hạn chế. Giáo viên tiếp tục theo dõi tiến độ, hướng dẫn và giao bài tập bổ trợ phù hợp, đồng thời khuyến khích học viên nâng cao tính chủ động trong học tập."},
+ ], "kien_nghi": "Học viên cần củng cố kiến thức nền tảng và tăng cường luyện tập các kỹ năng còn hạn chế. Phụ huynh nên đồng hành, khuyến khích học viên nâng cao tính chủ động trong học tập và duy trì việc ôn tập đều đặn."},
  "D": {"label": "Fail – Không đạt", "items": [
    "Kết quả học tập của học viên có dấu hiệu giảm so với giai đoạn trước. Học viên còn gặp khó khăn trong việc ghi nhớ và vận dụng kiến thức, đồng thời mức độ chủ động trong học tập chưa cao. Cần sớm có kế hoạch ôn tập và theo dõi sát hơn để cải thiện kết quả.",
-   "Học viên đang gặp nhiều khó khăn trong quá trình học tập và cần được hỗ trợ thêm. Một số kiến thức nền tảng chưa được nắm vững, ảnh hưởng đến khả năng phát triển các kỹ năng nghe, nói, đọc và viết. Giáo viên và phụ huynh cần phối hợp hỗ trợ, đồng thời xây dựng kế hoạch học tập phù hợp cho học viên.",
- ], "kien_nghi": "Học viên chưa đạt yêu cầu của khóa học và cần được hỗ trợ đặc biệt để củng cố lại kiến thức nền tảng. Giáo viên và phụ huynh cần phối hợp chặt chẽ, xác định nguyên nhân cụ thể và cân nhắc phương án chuyển lớp hoặc học lại để đảm bảo học viên theo kịp chương trình trong giai đoạn tiếp theo."},
+   "Học viên đang gặp nhiều khó khăn trong quá trình học tập và cần được hỗ trợ thêm. Một số kiến thức nền tảng chưa được nắm vững, ảnh hưởng đến khả năng phát triển các kỹ năng nghe, nói, đọc và viết. Phụ huynh cần quan tâm hỗ trợ thêm, đồng thời xây dựng kế hoạch học tập phù hợp cho học viên.",
+ ], "kien_nghi": "Học viên chưa đạt yêu cầu của khóa học và cần được hỗ trợ đặc biệt để củng cố lại kiến thức nền tảng. Phụ huynh nên quan tâm sát sao, xác định nguyên nhân cụ thể và cân nhắc phương án chuyển lớp hoặc học lại để học viên theo kịp chương trình trong giai đoạn tiếp theo."},
 }
 
 GRADE_ORDER = ["A+", "A", "B+", "B", "C+", "C", "D"]
@@ -59,7 +59,7 @@ IELTS_BANDS = [
  (4.0, "<4.0", "Sơ cấp (cần xây lại nền tảng)", [
    "Học viên đạt Band điểm dưới 4.0, tương đương trình độ sơ cấp. Học viên còn gặp nhiều khó khăn trong việc sử dụng tiếng Anh ở cả 4 kỹ năng, vốn từ vựng và ngữ pháp còn hạn chế, cần được xây dựng lại nền tảng một cách bài bản.",
    "Kết quả thi hiện tại của học viên còn cách khá xa mục tiêu Band điểm mong muốn. Khả năng nghe hiểu, đọc hiểu, diễn đạt nói và viết đều cần được củng cố từ gốc. Học viên cần một lộ trình học tập trung vào nền tảng ngữ pháp - từ vựng trước khi luyện đề chuyên sâu.",
- ], "Học viên nên bắt đầu lại từ các khóa nền tảng (Foundation/Elementary) để củng cố ngữ pháp và từ vựng cơ bản trước khi quay lại luyện thi IELTS. Giáo viên và phụ huynh cần phối hợp xây dựng lộ trình học phù hợp, tăng cường số buổi học và ưu tiên các kỹ năng nền tảng."),
+ ], "Học viên nên bắt đầu lại từ các khóa nền tảng (Foundation/Elementary) để củng cố ngữ pháp và từ vựng cơ bản trước khi quay lại luyện thi IELTS. Phụ huynh nên đồng hành xây dựng lộ trình học phù hợp, tăng cường số buổi học và ưu tiên các kỹ năng nền tảng."),
  (4.5, "4.0–4.5", "Tiền trung cấp (cần cải thiện)", [
    "Học viên đạt Band 4.0-4.5, ở mức tiền trung cấp. Học viên đã có một số nền tảng tiếng Anh nhất định nhưng khả năng vận dụng vào bài thi thực tế (đặc biệt Nói và Viết) còn hạn chế. Cần tăng cường luyện tập theo dạng đề và mở rộng vốn từ vựng học thuật.",
    "Kết quả hiện tại cho thấy học viên cần cải thiện thêm để đạt mục tiêu Band điểm mong muốn. Một số kỹ năng còn yếu hơn các kỹ năng khác, ảnh hưởng đến điểm tổng. Học viên nên tập trung luyện tập có định hướng theo từng dạng bài thi.",
@@ -90,7 +90,7 @@ SKILL_TIPS = {
  "Nghe": "Nên luyện nghe thêm 2-3 giờ/tuần: nghe podcast/video tiếng Anh theo chủ đề quen thuộc, luyện nghe chép chính tả (dictation) đoạn ngắn, làm lại các dạng bài nghe trong đề thi để quen format và tốc độ nói.",
  "Nói": "Nên luyện nói thêm 2-3 giờ/tuần: luyện phát âm - ngữ điệu qua shadowing (nói theo audio mẫu), tập trả lời các câu hỏi theo chủ đề quen thuộc, ghi âm lại phần nói của mình để tự đánh giá và cải thiện.",
  "Đọc": "Nên luyện đọc thêm 2-3 giờ/tuần: đọc các đoạn văn ngắn phù hợp trình độ, luyện kỹ năng đọc lướt (skimming) và đọc quét (scanning) để tìm thông tin nhanh, mở rộng vốn từ vựng qua ngữ cảnh.",
- "Viết": "Nên luyện viết thêm 2-3 giờ/tuần: luyện viết câu, đoạn văn theo chủ đề quen thuộc, chú ý cấu trúc ngữ pháp và cách triển khai ý, nhờ giáo viên chữa bài và rút kinh nghiệm từ lỗi sai thường gặp.",
+ "Viết": "Nên luyện viết thêm 2-3 giờ/tuần: luyện viết câu, đoạn văn theo chủ đề quen thuộc, chú ý cấu trúc ngữ pháp và cách triển khai ý, tự soát lại bài và rút kinh nghiệm từ lỗi sai thường gặp.",
 }
 
 # ---- Thoi gian hoc toi uu goi y theo xep loai chuan (A+...D) ----
@@ -116,35 +116,40 @@ def study_time_ielts(overall):
     return "2 buổi/tuần, 90 phút/buổi — duy trì nhịp học hiện tại."
 
 # ---- Bo nhan xet rieng cho LOP E (thieu nhi, chi hoc Noi + Chuyen can) ----
+# Nguon: file chinh thuc "tiêu_chí_chấm_lớp_E.xlsx" - chia 3 muc Trung binh/Kha/Tot.
+# Anh xa: Tot = A+/A, Kha = B+/B, Trung binh = C+/C, Yeu (tu soan them) = D.
+_E_TOT = {"label": "Tốt", "items": [
+   "Bé đi học đầy đủ, luôn tích cực tham gia các hoạt động và hợp tác tốt trong giờ học. Bé ghi nhớ tốt từ vựng, mẫu câu và có khả năng trả lời câu hỏi bằng tiếng Anh khá tự tin.",
+   "Bé có chuyên cần tốt, ngoan và rất hào hứng trong các hoạt động trên lớp. Bé có khả năng phản xạ tốt, phát âm khá rõ và chủ động sử dụng tiếng Anh khi giao tiếp với cô.",
+   "Bé có tinh thần học tập rất tốt, đi học đầy đủ và tích cực tham gia các hoạt động. Bé tự tin, chủ động và hợp tác tốt. Kỹ năng Speaking của bé rất tốt, bé ghi nhớ bài nhanh và có khả năng sử dụng tiếng Anh linh hoạt trong các tình huống quen thuộc.",
+ ], "kien_nghi": "Nên tiếp tục khuyến khích bé duy trì tinh thần học tập tích cực hiện tại, tạo thêm cơ hội cho bé thực hành nói tiếng Anh trong nhiều tình huống khác nhau để phát huy tối đa khả năng."}
+
+_E_KHA = {"label": "Khá", "items": [
+   "Bé đi học đầy đủ, ngoan và tích cực tham gia các hoạt động trên lớp. Bé nắm được các từ vựng và mẫu câu đã học, có thể trả lời các câu hỏi quen thuộc và đang dần tự tin hơn khi giao tiếp bằng tiếng Anh.",
+   "Bé có chuyên cần tốt, tham gia hoạt động khá tích cực và hợp tác tốt với cô. Bé có khả năng ghi nhớ từ vựng, mẫu câu và trả lời được các câu hỏi cơ bản. Bé cần luyện thêm phát âm và phản xạ để giao tiếp tự nhiên hơn.",
+   "Bé có thái độ học tập tốt, ngoan và phối hợp tốt trong các hoạt động trên lớp. Bé khá tự tin khi tham gia phần Speaking, biết sử dụng các mẫu câu đã học và có sự tiến bộ rõ rệt trong quá trình học.",
+ ], "kien_nghi": "Nên tiếp tục cho bé luyện tập thường xuyên qua các hoạt động nói, trò chơi, bài hát để tăng phản xạ và sự tự tin, đồng thời khích lệ bé chủ động sử dụng tiếng Anh nhiều hơn."}
+
+_E_TB = {"label": "Trung bình", "items": [
+   "Bé đi học khá đầy đủ, ngoan và có tham gia các hoạt động trên lớp. Bé đôi lúc còn rụt rè khi sử dụng tiếng Anh và cần cô hỗ trợ thêm khi trả lời câu hỏi. Bé cần luyện tập thêm từ vựng và mẫu câu để tự tin hơn khi giao tiếp.",
+   "Bé có ý thức đi học và tham gia các hoạt động cùng cô và các bạn. Bé hợp tác khá tốt nhưng đôi khi còn mất tập trung. Kỹ năng Speaking của bé ở mức khá cơ bản, cần luyện tập thêm để tăng khả năng phản xạ và phát âm.",
+   "Bé đi học tương đối đầy đủ, ngoan và biết hợp tác trong giờ học. Bé đã ghi nhớ được một số từ vựng và mẫu câu quen thuộc nhưng còn cần nhắc khi trả lời. Cô mong bé mạnh dạn nói tiếng Anh nhiều hơn trong thời gian tới.",
+ ], "kien_nghi": "Phụ huynh nên tạo thêm cơ hội cho bé luyện nói tiếng Anh trong môi trường thoải mái, ít áp lực; khuyến khích bé mạnh dạn hơn và ôn lại từ vựng, mẫu câu thường xuyên."}
+
+_E_YEU = {"label": "Yếu", "items": [
+   "Bé còn khá rụt rè và ít tham gia các hoạt động nói trên lớp, cần được cô hỗ trợ và khích lệ nhiều hơn để mạnh dạn sử dụng tiếng Anh.",
+   "Bé còn gặp khó khăn trong việc ghi nhớ từ vựng và mẫu câu, khả năng phản xạ khi giao tiếp còn hạn chế. Bé cần thêm thời gian và sự đồng hành sát sao từ cô và gia đình.",
+   "Bé đi học chưa đều hoặc chưa thật sự tập trung trong giờ học, ảnh hưởng đến khả năng tiếp thu từ vựng và mẫu câu. Cần có kế hoạch hỗ trợ riêng để bé bắt kịp các bạn.",
+ ], "kien_nghi": "Phụ huynh nên tạo môi trường luyện tập vui vẻ, ít áp lực để bé dần tự tin hơn; ưu tiên các hoạt động đơn giản, lặp lại nhiều lần để bé ghi nhớ tốt hơn, và cân nhắc hỗ trợ thêm ngoài giờ học nếu cần."}
+
 E_CLASS = {
- "A+": {"label": "Outstanding – Xuất sắc", "items": [
-   "Học viên nói tiếng Anh rất tự nhiên và tự tin, phát âm chuẩn, vốn từ vựng phong phú so với lứa tuổi. Bé chủ động giao tiếp, phản xạ nhanh và luôn hào hứng tham gia các hoạt động nói trên lớp.",
-   "Học viên thể hiện khả năng nói tiếng Anh vượt trội, diễn đạt trôi chảy, rõ ràng và đúng ngữ cảnh. Bé rất tự tin khi trình bày trước lớp và là gương mẫu cho các bạn khác.",
- ], "kien_nghi": "Nên tiếp tục khuyến khích bé nói tiếng Anh trong nhiều tình huống khác nhau, mở rộng chủ đề giao tiếp và có thể cho bé tham gia các hoạt động thuyết trình, kể chuyện bằng tiếng Anh để phát huy tối đa khả năng."},
- "A": {"label": "Excellent – Rất giỏi", "items": [
-   "Học viên nói tiếng Anh khá tốt, phát âm rõ ràng, tự tin tham gia các hoạt động nói trên lớp. Vốn từ vựng và khả năng diễn đạt đang phát triển tốt theo từng buổi học.",
-   "Bé có khả năng giao tiếp tiếng Anh tốt, phản xạ nhanh với các câu hỏi quen thuộc. Bé tích cực tham gia hoạt động nói và thể hiện sự tự tin khi luyện tập.",
- ], "kien_nghi": "Nên tiếp tục duy trì việc luyện nói thường xuyên, khuyến khích bé sử dụng tiếng Anh trong giao tiếp hàng ngày để tăng phản xạ và sự tự nhiên khi nói."},
- "B+": {"label": "Very good – Giỏi", "items": [
-   "Học viên nói tiếng Anh khá ổn, có thể diễn đạt được các câu quen thuộc, tuy nhiên đôi lúc còn ngập ngừng khi gặp tình huống mới. Bé tích cực tham gia lớp học.",
-   "Bé có tiến bộ rõ rệt trong khả năng nói, phát âm ngày càng rõ hơn. Cần luyện tập thêm để tăng sự tự tin và phản xạ nhanh hơn khi giao tiếp.",
- ], "kien_nghi": "Nên tăng cường cho bé luyện nói qua các trò chơi, bài hát, hội thoại ngắn để tạo hứng thú và tăng phản xạ giao tiếp tự nhiên."},
- "B": {"label": "Good – Khá", "items": [
-   "Học viên có thể nói được các câu đơn giản, quen thuộc nhưng còn cần hỗ trợ khi gặp câu hỏi mới. Phát âm và sự tự tin đang được cải thiện dần.",
-   "Bé tham gia hoạt động nói trên lớp nhưng đôi khi còn rụt rè. Cần khuyến khích thêm để bé mạnh dạn giao tiếp bằng tiếng Anh hơn.",
- ], "kien_nghi": "Giáo viên nên tạo thêm nhiều cơ hội cho bé thực hành nói trong lớp, khích lệ bé mạnh dạn hơn, đồng thời phụ huynh có thể cùng bé luyện nói các câu đơn giản ở nhà."},
- "C+": {"label": "Average – Trung bình", "items": [
-   "Học viên còn khá rụt rè khi nói tiếng Anh, vốn từ vựng và khả năng phát âm cần được củng cố thêm. Bé cần được khích lệ nhiều hơn để tự tin tham gia.",
-   "Bé đã có một số tiến bộ nhưng vẫn còn hạn chế trong việc diễn đạt bằng tiếng Anh. Cần luyện tập thêm về từ vựng và mẫu câu cơ bản.",
- ], "kien_nghi": "Nên tăng cường luyện tập các mẫu câu đơn giản, thường xuyên qua trò chơi và bài hát để bé làm quen dần, đồng thời khích lệ tinh thần để bé bớt rụt rè khi nói."},
- "C": {"label": "Need improvement – Cần cố gắng hơn", "items": [
-   "Học viên còn gặp khó khăn trong việc nói tiếng Anh, vốn từ vựng hạn chế và ít chủ động tham gia hoạt động nói trên lớp. Cần được hỗ trợ và khích lệ nhiều hơn.",
-   "Bé còn ngại giao tiếp bằng tiếng Anh, phát âm và khả năng ghi nhớ từ vựng cần được củng cố thêm. Nên có kế hoạch hỗ trợ riêng để bé tự tin hơn.",
- ], "kien_nghi": "Giáo viên và phụ huynh cần phối hợp tạo môi trường luyện nói tiếng Anh thường xuyên hơn cho bé, ưu tiên các hoạt động vui nhộn, ít áp lực để bé dần tự tin giao tiếp."},
- "D": {"label": "Fail – Không đạt", "items": [
-   "Học viên hiện còn rất hạn chế trong khả năng nói tiếng Anh, ít tham gia hoạt động trên lớp và cần được hỗ trợ đặc biệt. Nên xem xét kế hoạch học tập phù hợp hơn cho bé.",
-   "Bé gặp nhiều khó khăn khi giao tiếp bằng tiếng Anh, vốn từ vựng và phản xạ còn rất hạn chế. Cần có sự hỗ trợ sát sao từ giáo viên và phụ huynh.",
- ], "kien_nghi": "Giáo viên và phụ huynh cần phối hợp chặt chẽ, xác định nguyên nhân cụ thể (có thể do bé chưa quen môi trường hoặc thiếu tự tin) và cân nhắc phương án hỗ trợ riêng hoặc học lại để bé bắt kịp chương trình."},
+ "A+": _E_TOT,
+ "A": _E_TOT,
+ "B+": _E_KHA,
+ "B": _E_KHA,
+ "C+": _E_TB,
+ "C": _E_TB,
+ "D": _E_YEU,
 }
 
 import re
