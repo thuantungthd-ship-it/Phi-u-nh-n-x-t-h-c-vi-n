@@ -115,42 +115,49 @@ def study_time_ielts(overall):
         return "2-3 buổi/tuần, 90 phút/buổi."
     return "2 buổi/tuần, 90 phút/buổi — duy trì nhịp học hiện tại."
 
-# ---- Bo nhan xet rieng cho LOP E (thieu nhi, chi hoc Noi + Chuyen can) ----
-# Nguon: file chinh thuc "tiêu_chí_chấm_lớp_E.xlsx" - chia 3 muc Trung binh/Kha/Tot.
-# Anh xa: Tot = A+/A, Kha = B+/B, Trung binh = C+/C, Yeu (tu soan them) = D.
+# ---- Bo nhan xet rieng cho LOP E (tre 4-6 tuoi) ----
+# Danh gia uu tien: chuyen can, muc do tham gia, kha nang ghi nho va su tu tin khi noi.
+# Khong dung cach dien dat nang ve hoc thuat cua cac lop lon.
 _E_TOT = {"label": "Tốt", "items": [
-   "Bé đi học đầy đủ, luôn tích cực tham gia các hoạt động và hợp tác tốt trong giờ học. Bé ghi nhớ tốt từ vựng, mẫu câu và có khả năng trả lời câu hỏi bằng tiếng Anh khá tự tin.",
-   "Bé có chuyên cần tốt, ngoan và rất hào hứng trong các hoạt động trên lớp. Bé có khả năng phản xạ tốt, phát âm khá rõ và chủ động sử dụng tiếng Anh khi giao tiếp với cô.",
-   "Bé có tinh thần học tập rất tốt, đi học đầy đủ và tích cực tham gia các hoạt động. Bé tự tin, chủ động và hợp tác tốt. Kỹ năng Speaking của bé rất tốt, bé ghi nhớ bài nhanh và có khả năng sử dụng tiếng Anh linh hoạt trong các tình huống quen thuộc.",
- ], "kien_nghi": "Nên tiếp tục khuyến khích bé duy trì tinh thần học tập tích cực hiện tại, tạo thêm cơ hội cho bé thực hành nói tiếng Anh trong nhiều tình huống khác nhau để phát huy tối đa khả năng."}
+    "Bé đi học đầy đủ, hào hứng tham gia các hoạt động và phối hợp tốt với cô. Bé ghi nhớ khá nhanh từ vựng, mẫu câu đã học và mạnh dạn trả lời các câu hỏi quen thuộc bằng tiếng Anh.",
+    "Bé có tinh thần học tập tích cực, vui vẻ tham gia các trò chơi và hoạt động trên lớp. Bé phát âm khá rõ, phản xạ tốt và ngày càng tự tin khi sử dụng tiếng Anh với cô.",
+    "Bé thể hiện sự tiến bộ rất tốt trong quá trình học. Bé chủ động tham gia hoạt động, ghi nhớ bài tốt và có thể sử dụng các từ, mẫu câu quen thuộc trong những tình huống đơn giản.",
+], "kien_nghi": "Tiếp tục khuyến khích bé học tiếng Anh thông qua trò chơi, bài hát, hình ảnh và các tình huống giao tiếp ngắn. Tạo thêm cơ hội để bé nói tiếng Anh tự nhiên, vui vẻ và không tạo áp lực."
+}
 
 _E_KHA = {"label": "Khá", "items": [
-   "Bé đi học đầy đủ, ngoan và tích cực tham gia các hoạt động trên lớp. Bé nắm được các từ vựng và mẫu câu đã học, có thể trả lời các câu hỏi quen thuộc và đang dần tự tin hơn khi giao tiếp bằng tiếng Anh.",
-   "Bé có chuyên cần tốt, tham gia hoạt động khá tích cực và hợp tác tốt với cô. Bé có khả năng ghi nhớ từ vựng, mẫu câu và trả lời được các câu hỏi cơ bản. Bé cần luyện thêm phát âm và phản xạ để giao tiếp tự nhiên hơn.",
-   "Bé có thái độ học tập tốt, ngoan và phối hợp tốt trong các hoạt động trên lớp. Bé khá tự tin khi tham gia phần Speaking, biết sử dụng các mẫu câu đã học và có sự tiến bộ rõ rệt trong quá trình học.",
- ], "kien_nghi": "Nên tiếp tục cho bé luyện tập thường xuyên qua các hoạt động nói, trò chơi, bài hát để tăng phản xạ và sự tự tin, đồng thời khích lệ bé chủ động sử dụng tiếng Anh nhiều hơn."}
+    "Bé đi học khá đầy đủ, ngoan và tích cực tham gia các hoạt động trên lớp. Bé ghi nhớ được phần lớn từ vựng, mẫu câu đã học và có thể trả lời các câu hỏi quen thuộc khi được cô gợi ý.",
+    "Bé hợp tác tốt với cô và các bạn, có hứng thú với các hoạt động tiếng Anh. Bé đã biết sử dụng một số từ và mẫu câu quen thuộc, đồng thời đang dần tự tin hơn khi nói.",
+    "Bé có thái độ học tập tốt và đang có sự tiến bộ rõ rệt. Bé tham gia khá tích cực các hoạt động Speaking, tuy nhiên đôi lúc vẫn cần thêm thời gian để nhớ từ hoặc phản hồi câu hỏi.",
+], "kien_nghi": "Nên duy trì việc luyện tập thông qua trò chơi, bài hát, truyện tranh và các câu hỏi ngắn hằng ngày. Khuyến khích bé trả lời bằng tiếng Anh ngay cả khi câu trả lời còn đơn giản."
+}
 
-_E_TB = {"label": "Trung bình", "items": [
-   "Bé đi học khá đầy đủ, ngoan và có tham gia các hoạt động trên lớp. Bé đôi lúc còn rụt rè khi sử dụng tiếng Anh và cần cô hỗ trợ thêm khi trả lời câu hỏi. Bé cần luyện tập thêm từ vựng và mẫu câu để tự tin hơn khi giao tiếp.",
-   "Bé có ý thức đi học và tham gia các hoạt động cùng cô và các bạn. Bé hợp tác khá tốt nhưng đôi khi còn mất tập trung. Kỹ năng Speaking của bé ở mức khá cơ bản, cần luyện tập thêm để tăng khả năng phản xạ và phát âm.",
-   "Bé đi học tương đối đầy đủ, ngoan và biết hợp tác trong giờ học. Bé đã ghi nhớ được một số từ vựng và mẫu câu quen thuộc nhưng còn cần nhắc khi trả lời. Cô mong bé mạnh dạn nói tiếng Anh nhiều hơn trong thời gian tới.",
- ], "kien_nghi": "Phụ huynh nên tạo thêm cơ hội cho bé luyện nói tiếng Anh trong môi trường thoải mái, ít áp lực; khuyến khích bé mạnh dạn hơn và ôn lại từ vựng, mẫu câu thường xuyên."}
+_E_DANG_PHAT_TRIEN = {"label": "Đang phát triển", "items": [
+    "Bé đi học và tham gia các hoạt động tương đối tốt. Bé đã ghi nhớ được một số từ vựng, mẫu câu quen thuộc nhưng đôi lúc còn cần cô nhắc hoặc hỗ trợ khi trả lời.",
+    "Bé có hứng thú với một số hoạt động trên lớp nhưng đôi khi còn rụt rè hoặc mất tập trung. Bé đang từng bước hình thành phản xạ nghe và nói tiếng Anh, cần thêm thời gian để thể hiện sự tự tin.",
+    "Bé đã có những bước tiến ban đầu trong việc sử dụng tiếng Anh. Bé có thể nhận biết và lặp lại một số từ, mẫu câu quen thuộc, đồng thời cần được khuyến khích nói nhiều hơn trong môi trường thoải mái.",
+], "kien_nghi": "Phụ huynh nên tạo môi trường luyện tập nhẹ nhàng tại nhà, ưu tiên các hoạt động ngắn 5–10 phút như hát, xem tranh, gọi tên đồ vật và hỏi đáp đơn giản. Hạn chế tạo áp lực khi bé trả lời chưa đúng."
+}
 
-_E_YEU = {"label": "Yếu", "items": [
-   "Bé còn khá rụt rè và ít tham gia các hoạt động nói trên lớp, cần được cô hỗ trợ và khích lệ nhiều hơn để mạnh dạn sử dụng tiếng Anh.",
-   "Bé còn gặp khó khăn trong việc ghi nhớ từ vựng và mẫu câu, khả năng phản xạ khi giao tiếp còn hạn chế. Bé cần thêm thời gian và sự đồng hành sát sao từ cô và gia đình.",
-   "Bé đi học chưa đều hoặc chưa thật sự tập trung trong giờ học, ảnh hưởng đến khả năng tiếp thu từ vựng và mẫu câu. Cần có kế hoạch hỗ trợ riêng để bé bắt kịp các bạn.",
- ], "kien_nghi": "Phụ huynh nên tạo môi trường luyện tập vui vẻ, ít áp lực để bé dần tự tin hơn; ưu tiên các hoạt động đơn giản, lặp lại nhiều lần để bé ghi nhớ tốt hơn, và cân nhắc hỗ trợ thêm ngoài giờ học nếu cần."}
+_E_CAN_THEM_HO_TRO = {"label": "Cần thêm hỗ trợ", "items": [
+    "Bé còn khá rụt rè và cần cô hỗ trợ nhiều hơn khi tham gia các hoạt động nói tiếng Anh. Bé cần thêm thời gian để làm quen, ghi nhớ và mạnh dạn phản hồi.",
+    "Bé đang gặp một số khó khăn trong việc ghi nhớ từ vựng, mẫu câu hoặc duy trì sự tập trung trong giờ học. Với sự động viên thường xuyên, bé có thể từng bước cải thiện và tự tin hơn.",
+    "Bé cần được khuyến khích tham gia các hoạt động tiếng Anh theo từng bước nhỏ. Việc lặp lại thường xuyên qua trò chơi, hình ảnh và bài hát sẽ giúp bé ghi nhớ và phản hồi tốt hơn.",
+], "kien_nghi": "Ưu tiên tạo môi trường học vui vẻ, ít áp lực; luyện tập ngắn nhưng thường xuyên và lặp lại các từ, mẫu câu quen thuộc. Gia đình nên phối hợp với giáo viên để theo dõi sự tiến bộ của bé thay vì đặt nặng điểm số."
+}
 
 E_CLASS = {
- "A+": _E_TOT,
- "A": _E_TOT,
- "B+": _E_KHA,
- "B": _E_KHA,
- "C+": _E_TB,
- "C": _E_TB,
- "D": _E_YEU,
+    "A+": _E_TOT,
+    "A": _E_TOT,
+    "B+": _E_KHA,
+    "B": _E_KHA,
+    "C+": _E_DANG_PHAT_TRIEN,
+    "C": _E_DANG_PHAT_TRIEN,
+    "D": _E_CAN_THEM_HO_TRO,
 }
+
+# Lớp E 4-6 tuổi không nên bị ép theo lịch ôn tập của học viên lớn.
+STUDY_TIME_E = "Ưu tiên các hoạt động ngắn 5–10 phút tại nhà mỗi ngày: nghe – lặp lại từ/câu quen thuộc, hát, xem tranh và trò chơi tiếng Anh. Duy trì đều đặn, vui vẻ và không tạo áp lực cho bé."
 
 import re
 
@@ -666,12 +673,23 @@ def _add_table3_final(doc, student):
         total_size = 12
     _set_cell_text(table.cell(1, 1), total_txt, bold=True, size=total_size, align=WD_ALIGN_PARAGRAPH.CENTER)
     _set_cell_text(table.cell(2, 0), "Xếp loại (Rating):", bold=True, size=10.5, align=WD_ALIGN_PARAGRAPH.CENTER)
-    _set_cell_text(table.cell(2, 1), student['grade'], bold=True, size=13, align=WD_ALIGN_PARAGRAPH.CENTER, color=RED)
+    is_e_class = (student.get('type') == 'standard' and len(student.get('skills', [])) == 1 and student['skills'][0]['name'].strip() == 'Nói')
+    if is_e_class and student.get('grade') in E_CLASS:
+        rating_txt = E_CLASS[student['grade']]['label']
+    else:
+        rating_txt = student['grade']
+    _set_cell_text(table.cell(2, 1), rating_txt, bold=True, size=13, align=WD_ALIGN_PARAGRAPH.CENTER, color=RED)
 
     c0 = table.cell(3, 0)
-    _set_cell_text(c0, "Ghi chú (Note):\n" + "\n".join(LEGEND_LEFT), size=8.5, italic=True)
+    if is_e_class:
+        _set_cell_text(c0, "Ghi chú (Note):\nĐánh giá lớp E (4–6 tuổi) tập trung vào sự tham gia, chuyên cần, khả năng ghi nhớ và sự tự tin khi sử dụng tiếng Anh.", size=8.5, italic=True)
+    else:
+        _set_cell_text(c0, "Ghi chú (Note):\n" + "\n".join(LEGEND_LEFT), size=8.5, italic=True)
     c1 = table.cell(3, 1)
-    _set_cell_text(c1, "\n" + "\n".join(LEGEND_RIGHT), size=8.5, italic=True)
+    if is_e_class:
+        _set_cell_text(c1, "\nTốt · Khá · Đang phát triển · Cần thêm hỗ trợ", size=8.5, italic=True)
+    else:
+        _set_cell_text(c1, "\n" + "\n".join(LEGEND_RIGHT), size=8.5, italic=True)
 
     nx = table.cell(4, 0)
     nx = nx.merge(table.cell(4, 1))
@@ -783,8 +801,11 @@ def _add_ai_section(doc, student):
     _add_heading(doc, "II. Kiến nghị", size=11.5, space_after=2)
     _add_body(doc, bucket['kien_nghi'], size=10.5)
 
-    _add_heading(doc, "III. Lộ trình ôn tập đề xuất", size=11.5, space_after=2)
-    if student['weak_skills']:
+    _add_heading(doc, "III. Lộ trình học tập đề xuất", size=11.5, space_after=2)
+    is_e_class = (student.get('type') == 'standard' and len(student.get('skills', [])) == 1 and student['skills'][0]['name'].strip() == 'Nói')
+    if is_e_class:
+        _add_body(doc, "Bé nên tiếp tục được khuyến khích sử dụng tiếng Anh qua trò chơi, bài hát, hình ảnh và các câu hỏi ngắn. Không cần tạo áp lực về việc trả lời hoàn toàn chính xác; ưu tiên sự tự tin và niềm vui khi sử dụng tiếng Anh.", size=10.5, space_after=4)
+    elif student['weak_skills']:
         _add_body(doc, "Các kỹ năng cần ưu tiên cải thiện: " + ", ".join(student['weak_skills']) + ".", size=10.5, space_after=3)
         for sk_name in student['weak_skills']:
             tip = SKILL_TIPS.get(sk_name.strip())
@@ -803,8 +824,10 @@ def _add_ai_section(doc, student):
         else:
             _add_body(doc, "Các kỹ năng của học viên hiện tương đối đồng đều, chưa ghi nhận kỹ năng nào cần ưu tiên đặc biệt. Học viên nên tiếp tục luyện tập đều cả các kỹ năng để duy trì phong độ.", size=10.5, space_after=4)
 
-    _add_heading(doc, "IV. Thời gian học tập tối ưu đề xuất", size=11.5, space_after=2)
-    if student['type'] == 'standard':
+    _add_heading(doc, "IV. Thời gian học tập đề xuất", size=11.5, space_after=2)
+    if is_e_class:
+        _add_body(doc, STUDY_TIME_E, size=10.5)
+    elif student['type'] == 'standard':
         _add_body(doc, STUDY_TIME_STANDARD.get(student['grade'], "2-3 buổi/tuần, 90 phút/buổi."), size=10.5)
     else:
         _add_body(doc, study_time_ielts(student['overall']), size=10.5)
